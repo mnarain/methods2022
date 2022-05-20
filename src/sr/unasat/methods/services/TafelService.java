@@ -2,20 +2,20 @@ package sr.unasat.methods.services;
 
 public class TafelService {
 
-    public void printMethods(){
+    public int printMethods(){
         System.out.println("No methods in the tafel service class");
+        return 0;
     }
 
-    public void printMethods(String m1){
+    public int printMethods(String m1){
         System.out.println(m1);
+        return 1;
     }
 
     public void printMethods(String m1, String m2){
         System.out.println(m1);
         System.out.println(m2);
     }
-
-
 
     public void printMethods(String m1, String m2, String m3){
         System.out.println(m1);

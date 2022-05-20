@@ -7,8 +7,8 @@ public class Application {
     public static void main(String[] args) {
 
         TafelService ts = new TafelService();
-       // ts.printMethods();
-       // ts.printMethods("Er is 1 method in de tafelservice class");
+        ts.printMethods();
+        ts.printMethods("Er is 1 method in de tafelservice class");
         ts.printMethods("1 hoedje", "2 hoedjes");
         ts.printMethods("1 hoedje", "2 hoedjes", "3 hoedjes");
         ts.printMethods("1 hoedje", "2 hoedjes", "3 hoedjes", "4 hoedjes");

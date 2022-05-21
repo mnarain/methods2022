@@ -8,10 +8,15 @@ public class Application {
 
         TafelService ts = new TafelService();
         System.out.println();
-        ts.printMethods();
-        System.out.println();
-        ts.printMethods("1 hoedjes");
-        System.out.println();
+
+        int result;
+
+        result = ts.printMethods();
+        System.out.println(result);
+
+        result = ts.printMethods("1 hoedjes");
+        System.out.println(result);
+
         ts.printMethods("1 hoedje", "2 hoedjes");
         System.out.println();
         ts.printMethods("1 hoedje", "2 hoedjes", "3 hoedjes");

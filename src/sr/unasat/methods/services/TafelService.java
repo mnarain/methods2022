@@ -12,30 +12,34 @@ public class TafelService {
         return 1;
     }
 
-    public void printMethods(String m1, String m2){
+    public int printMethods(String m1, String m2){
         System.out.println(m1);
         System.out.println(m2);
+        return 2;
     }
 
-    public void printMethods(String m1, String m2, String m3){
+    public int printMethods(String m1, String m2, String m3){
         System.out.println(m1);
         System.out.println(m2);
         System.out.println(m3);
+        return 3;
     }
 
-    public void printMethods(String m1, String m2, String m3, String m4){
+    public int printMethods(String m1, String m2, String m3, String m4){
         System.out.println(m1);
         System.out.println(m2);
         System.out.println(m3);
         System.out.println(m4);
+        return 4;
     }
 
-    public void printMethods(String m1, String m2, String m3, String m4, String m5){
+    public int printMethods(String m1, String m2, String m3, String m4, String m5){
         System.out.println(m1);
         System.out.println(m2);
         System.out.println(m3);
         System.out.println(m4);
         System.out.println(m5);
+        return 5;
     }
 
 }

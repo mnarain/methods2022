@@ -1,12 +1,27 @@
 package sr.unasat.methods.app;
 
+import sr.unasat.methods.entities.Session;
 import sr.unasat.methods.services.TafelService;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class Application {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
-        TafelService ts = new TafelService();
+        //gebruiker logged succesvol in
+        // er word een session object aangemaakt voor zijn inlog periode
+        Session session = new Session(1, "Maarten", LocalDateTime.now());
+        System.out.println(session.getId());
+        System.out.println(session.getUsername());
+        System.out.println(session.getStart());
+        Thread.sleep(5000);
+
+        session.setEnd(LocalDateTime.now());
+
+        System.out.println(session.getEnd());
+/*        TafelService ts = new TafelService();
         System.out.println();
 
         int result;
@@ -24,7 +39,7 @@ public class Application {
         result = ts.printMethods("1 hoedje", "2 hoedjes", "3 hoedjes", "4 hoedjes");
         System.out.println(result);
         result = ts.printMethods("1 hoedje", "2 hoedjes", "3 hoedjes", "4 hoedjes", "5 hoedjes");
-        System.out.println(result);
+        System.out.println(result);*/
         //maak 3 methods aan die respectievelijk 3, 4, 5 parameters accepteren.
         // voor elke parameter die je toev oegd dien je de paramater waarde te printen in een apparte sout
 

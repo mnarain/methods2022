@@ -23,4 +23,9 @@ public class TafelService {
            multiplier++;
        }
     }
+
+    //schrijf een forloop method voor tafel van 10. kijk af van de while loop
+    public void tafelVan10For() {
+
+    }
 }

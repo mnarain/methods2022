@@ -12,17 +12,21 @@ public class Application {
 
         //gebruiker logged succesvol in
         // er word een session object aangemaakt voor zijn inlog periode
-        Session session = new Session(1, "Maarten", LocalDateTime.now());
+/*        Session session = new Session(1, "Maarten", LocalDateTime.now());
         System.out.println(session.getId());
         System.out.println(session.getUsername());
         System.out.println(session.getStart());
-        Thread.sleep(10000);
+        Thread.sleep(10000);*/
 
-        session.setEnd(LocalDateTime.now());
+ /*       session.setEnd(LocalDateTime.now());
 
-        System.out.println(session.getEnd());
-  /*      TafelService ts = new TafelService();
-        System.out.println();
+        System.out.println(session.getEnd());*/
+        TafelService ts = new TafelService();
+      //  ts.tafelVan10();
+        ts.tafelVan10While();
+
+
+   /*     System.out.println();
 
         int result;
 

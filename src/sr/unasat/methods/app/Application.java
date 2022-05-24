@@ -16,12 +16,12 @@ public class Application {
         System.out.println(session.getId());
         System.out.println(session.getUsername());
         System.out.println(session.getStart());
-        Thread.sleep(5000);
+        Thread.sleep(10000);
 
         session.setEnd(LocalDateTime.now());
 
         System.out.println(session.getEnd());
-/*        TafelService ts = new TafelService();
+  /*      TafelService ts = new TafelService();
         System.out.println();
 
         int result;

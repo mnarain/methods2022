@@ -11,21 +11,10 @@ public class Session {
     private final Integer MAX_DURATION_IN_HOURS = 24;
     private final Integer TIME_OUT_IN_MINUTES = 30;
 
-    public Session() {
-    }
-
-    public Session(Integer id, String username, LocalDateTime start, LocalDateTime end) {
-        this.id = id;
-        this.username = username;
-        this.start = start;
-        this.end = end;
-    }
-
     public Session(Integer id, String username, LocalDateTime start) {
         this.id = id;
         this.username = username;
         this.start = start;
-        System.out.println("Het object isaangemaakt");
     }
 
     public Integer getId() {

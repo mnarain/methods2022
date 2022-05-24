@@ -9,15 +9,12 @@ public class IfExamples {
 
         if (pincode == ingvoerdePincode) {
             //indien de pincode correct is controlleer of het gevraagde bedrag maximaal 1000srd is
-            if (pinBedrag <= 1000) {
-                System.out.println("Het aangevraagde bedrag van: " + pinBedrag + " wordt verstrekt");
-            } else {
+
                 //indien het bedrag groter dan 1000srd is geef aan dat dit bedrag niet is toegestaan
-                System.out.println("Het aangevraagd bedrag van: " + pinBedrag + " is meer dan het toegestaan bedrag van 1000");
-            }
+
         } else {
             //geef hier aan aat de pincode fout is
-            System.out.println("Uw pincode is incorrect");
+
         }
 
 

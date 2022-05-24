@@ -9,9 +9,9 @@ public class IfExamples {
 
         if (pincode == ingvoerdePincode) {
             //indien de pincode correct is controlleer of het gevraagde bedrag maximaal 1000srd is
-
+  //if ....
                 //indien het bedrag groter dan 1000srd is geef aan dat dit bedrag niet is toegestaan
-
+        ///else
         } else {
             //geef hier aan aat de pincode fout is
 

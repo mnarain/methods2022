@@ -26,6 +26,16 @@ public class TafelService {
 
     //schrijf een forloop method voor tafel van 10. kijk af van de while loop
     public void tafelVan10For() {
+      for ( int multiplier = 1; multiplier <= 10; multiplier++){
+          System.out.println( multiplier + " * 10 = " + (multiplier * 10));
+      }
+    }
 
+    //schrijf een for each loop method voor tafel van 10. kijk af van de while loop
+    public void tafelVan10ForEach() {
+        int multipliers[] = {1,2,3,4,5,6,7,8,9,10};
+      for (int multiplier : multipliers){
+          System.out.println( multiplier + " * 10 = " + (multiplier * 10));
+      }
     }
 }

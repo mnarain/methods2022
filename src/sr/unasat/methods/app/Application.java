@@ -22,8 +22,10 @@ public class Application {
 
         System.out.println(session.getEnd());*/
         TafelService ts = new TafelService();
-      //  ts.tafelVan10();
-        ts.tafelVan10While();
+        //  ts.tafelVan10();
+        // ts.tafelVan10While();
+        // ts.tafelVan10For();
+        ts.tafelVan10ForEach();
 
 
    /*     System.out.println();

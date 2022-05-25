@@ -2,6 +2,7 @@ package sr.unasat.methods.app;
 
 import sr.unasat.methods.entities.Session;
 import sr.unasat.methods.services.TafelService;
+import sr.unasat.methods.w3schools.SwitchExample;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -25,8 +26,11 @@ public class Application {
         //  ts.tafelVan10();
         // ts.tafelVan10While();
         // ts.tafelVan10For();
-        ts.tafelVan10ForCollection();
+       // ts.tafelVan10ForCollection();
        // ts.tafelVan10ForEach();
+
+        SwitchExample se = new SwitchExample();
+        se.vendingMachine();
 
 
    /*     System.out.println();

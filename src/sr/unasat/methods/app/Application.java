@@ -25,7 +25,8 @@ public class Application {
         //  ts.tafelVan10();
         // ts.tafelVan10While();
         // ts.tafelVan10For();
-        ts.tafelVan10ForEach();
+        ts.tafelVan10ForCollection();
+       // ts.tafelVan10ForEach();
 
 
    /*     System.out.println();

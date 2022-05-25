@@ -17,25 +17,32 @@ public class TafelService {
 
     // gebruik een while loop om tafel vcan 10 uit te printen
     public void tafelVan10While() {
-       int multiplier = 1;
-       while (multiplier <= 10){
-           System.out.println( multiplier + " * 10 = " + (multiplier * 10));
-           multiplier++;
-       }
+        int multiplier = 1;
+        while (multiplier <= 10) {
+            System.out.println(multiplier + " * 10 = " + (multiplier * 10));
+            multiplier++;
+        }
     }
 
     //schrijf een forloop method voor tafel van 10. kijk af van de while loop
     public void tafelVan10For() {
-      for ( int multiplier = 1; multiplier <= 10; multiplier++){
-          System.out.println( multiplier + " * 10 = " + (multiplier * 10));
-      }
+        for (int multiplier = 1; multiplier <= 10; multiplier++) {
+            System.out.println(multiplier + " * 10 = " + (multiplier * 10));
+        }
+    }
+
+    public void tafelVan10ForCollection() {
+        int multipliers[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        for (int multiplierIndex = 0; multiplierIndex < multipliers.length; multiplierIndex++) {
+            System.out.println(multipliers[multiplierIndex] + " * 10 = " + (multipliers[multiplierIndex] * 10));
+        }
     }
 
     //schrijf een for each loop method voor tafel van 10. kijk af van de while loop
     public void tafelVan10ForEach() {
-        int multipliers[] = {1,2,3,4,5,6,7,8,9,10};
-      for (int multiplier : multipliers){
-          System.out.println( multiplier + " * 10 = " + (multiplier * 10));
-      }
+        int multipliers[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        for (int multiplier : multipliers) {
+            System.out.println(multiplier + " * 10 = " + (multiplier * 10));
+        }
     }
 }

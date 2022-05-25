@@ -14,5 +14,6 @@ public class TafelService {
         System.out.println("9 * 10 = " + 9 * 10);
         System.out.println("10 * 10 = " + 10 * 10);
     }
-
+     //multiplier * 10
+    //maak 4 methods aan en gebruik per method een andere loop om de tafel van 10 uit te printen middels een loop ipv het helemaal uit te schrijven.
 }

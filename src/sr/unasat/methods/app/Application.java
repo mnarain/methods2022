@@ -24,13 +24,13 @@ public class Application {
         System.out.println(session.getEnd());*/
         TafelService ts = new TafelService();
         //  ts.tafelVan10();
-        // ts.tafelVan10While();
-        // ts.tafelVan10For();
-       // ts.tafelVan10ForCollection();
-       // ts.tafelVan10ForEach();
+         //ts.tafelVan10While();
+        //ts.tafelVan10For();
+        //ts.tafelVan10ForCollection();
+        ts.tafelVan10ForEach();
 
-        SwitchExample se = new SwitchExample();
-        se.vendingMachine();
+     /*   SwitchExample se = new SwitchExample();
+        se.vendingMachine();*/
 
 
    /*     System.out.println();
